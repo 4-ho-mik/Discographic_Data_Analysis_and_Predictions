@@ -14,7 +14,7 @@ the dataset inherently suffers from survivorship bias. It predominantly represen
 Consequently, our target variable (`album_count`) is heavily right-censored. In practice, our model predicts an artist's output up to this threshold,
 determining how quickly or likely they are to hit this "legendary" 25-album cap.
 
-** Tech Stack:**
+**Tech Stack:**
 * **Data Manipulation:** `pandas`, `numpy`, `ast`
 * **Data Visualization:** `matplotlib`, `seaborn`
 * **Machine Learning & Preprocessing:** `scikit-learn` (MultiLabelBinarizer, train_test_split, metrics), `xgboost` (XGBRegressor)
